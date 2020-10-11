@@ -1,0 +1,32 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public enum ItemType
+{
+    Food,
+    Equipment,
+    Default
+}
+
+public abstract class ItemObjects : ScriptableObject
+{
+    public int Id;
+    public Sprite uiDisplay;
+    public GameObject prefab;
+    public ItemType type;
+    [TextArea(15,20)]
+    public string description;
+}
+
+[System.Serializable]
+public class Item
+{
+    public string Name;
+    public int Id;
+    public Item(ItemObjects item)
+    {
+        Name = item.name;
+        Id = item.Id;
+    }
+}

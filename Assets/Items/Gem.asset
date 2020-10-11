@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820dd3f9451549b45aa4889737f6b1cb, type: 3}
+  m_Name: Gem
+  m_EditorClassIdentifier: 
+  Id: 0
+  uiDisplay: {fileID: 21300000, guid: d1c1523651c71449cb32c2c7933acf8c, type: 3}
+  prefab: {fileID: 1616823542006213428, guid: 26e38b3867cb31d448f10a9ac3de10e5, type: 3}
+  type: 2
+  description: Gem.
